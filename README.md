@@ -17,5 +17,5 @@
 1. I developed and debugged a Python script (Kafka_consumer.py) to consume and manually commit financial transaction messages from a Kafka Producer, which has a topic named 'financial_transaction_topic'.
 
 #### Third, Streaming with Spark:
-1. I developed and debugged a Jupyter Notebook (KafkaStreaming.ipynb) to read data from the Kafka topic 'financial_transaction_topic'.
+1. I developed and debugged a Jupyter Notebook (KafkaStreaming.ipynb) to read data from the Kafka topic.
 2. Since the data is streamed in real-time and continuously flows from Kafka Producer, I implemented logic to do batch processing and export it as Parquet files for downstream processing.
