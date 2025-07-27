@@ -1,4 +1,5 @@
-# Repository name: Spark_streaming_project_public
+# Repository name: real_time_stream_processing_project_public
+# Project name: Real-time Stream processing data pipeline with Apache Kafka and Apache Spark
 # Author name: Pawonrat Khumngoen
 
       Currently, I’m primarily working with batch processing systems, but I’ve been actively exploring and developing an interest in real-time streaming data processing. To challenge myself and expand my skill set, I initiated a real-time streaming project. 
@@ -24,20 +25,35 @@
 
 ### The results.
 #### Kafka Producer part:
-* Once Kafka_producer.py is executed, the terminal outputs logs related to currency rate fetching. For each message, a currency is randomly selected from the schema defined in schema.py, and the message details are then displayed accordingly.</br></br>
+* Once Kafka_producer.py is executed, the terminal outputs logs related to currency rate fetching. For each message, a currency is randomly selected from the schema defined in schema.py, and the message details are displayed.</br></br>
    <img width="1513" height="769" alt="Kafka_producer" src="https://github.com/user-attachments/assets/509f93d3-ee7d-4245-9838-535670b31632" /></br>
 #### Kafka Consumer part:
-* Once Kafka_consumer.py is executed, the terminal logs the consumption of messages from the Kafka topic 'financial_transaction_topic'.</br></br>
+* Once Kafka_consumer.py is executed, the terminal displays logs showing the messages being consumed by the Kafka consumer from the topic 'financial_transaction_topic'.</br></br>
    <img width="1481" height="738" alt="image" src="https://github.com/user-attachments/assets/5f3f9c5a-255a-45bc-bb28-63199d64ed9d" /></br>
 #### Streaming with Spark part:
-* To test Kafka accessibility and perform basic analysis, I executed the cell to display the number of transactions grouped by currency.</br></br>
+* To verify Kafka connectivity and demonstrate basic analytical capability, I ran a sample query to display the number of transactions grouped by currency.</br></br>
    <img width="271" height="173" alt="image" src="https://github.com/user-attachments/assets/8a204409-55eb-4eca-adff-86cf8c6c60d6" /></br>
 
 ---------------------------------------------------------------------------------------------
 
-#### Setting environment
-1. Based on the initial Docker Compose setup from the Confluent GitHub repository (https://github.com/confluentinc/cp-all-in-one/blob/8.0.0-post/cp-all-in-one/docker-compose.yml), I obtained and modified the docker-compose.yml file to suit the project’s requirements.
-2. Added a custom Dockerfile to enable launching a Jupyter Notebook with Spark support.
+#### Setting environment.
+1. Based on the initial Docker Compose setup from the Confluent GitHub repository (https://github.com/confluentinc/cp-all-in-one/blob/8.0.0-post/cp-all-in-one/docker-compose.yml), I obtained and modified this docker-compose.yml file to suit the project’s requirements.
+2. Added a custom Dockerfile to enable launching a Jupyter Notebook with Apache Spark support.
 3. Created a requirements.txt file to specify Python dependencies, ensuring the environment runs consistently within a virtual environment.
 
+---------------------------------------------------------------------------------------------
+
+#### Skill sets.
+1. Apache Kafka.
+2. Kafka Producer API.
+3. Kafka Consumer API.
+4. Apache Spark.
+5. Python.
+6. PySpark.
+7. Docker.
+8. Jupyter Notebook.
+9. Real-time Stream Processing.
+10. Batch Processing.
+11. Message Queuing.
+12. Data pipeline.
 
