@@ -29,7 +29,7 @@
    <img width="1513" height="769" alt="Kafka_producer" src="https://github.com/user-attachments/assets/509f93d3-ee7d-4245-9838-535670b31632" /></br>
 #### Kafka Consumer part:
 * Once Kafka_consumer.py is executed, the terminal displays logs showing the messages being consumed by the Kafka consumer from the topic 'financial_transaction_topic'.</br></br>
-   <img width="1481" height="738" alt="image" src="https://github.com/user-attachments/assets/5f3f9c5a-255a-45bc-bb28-63199d64ed9d" /></br>
+   <img width="1481" height="738" alt="Kafka_consumer" src="https://github.com/user-attachments/assets/2801fc15-766f-40a7-a31c-714bed6195a2" /></br>
 #### Streaming with Spark part:
 * To verify Kafka connectivity and demonstrate basic analytical capability, I ran a sample query to display the number of transactions grouped by currency.</br></br>
    <img width="271" height="173" alt="image" src="https://github.com/user-attachments/assets/8a204409-55eb-4eca-adff-86cf8c6c60d6" /></br>
