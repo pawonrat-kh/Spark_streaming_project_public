@@ -25,7 +25,7 @@
 
 ### The results.
 #### Kafka Producer part:
-* Once Kafka_producer.py is executed, the terminal outputs logs related to currency rate fetching. For each message, a currency is randomly selected from the schema defined in schema.py, and the message details are displayed.</br></br>
+* Once Kafka_producer.py is executed, the terminal outputs logs related to currency rate fetching via a REST API. For each message, a currency is randomly selected from the schema defined in schema.py, and the message details are displayed.</br></br>
    <img width="1513" height="769" alt="Kafka_producer" src="https://github.com/user-attachments/assets/509f93d3-ee7d-4245-9838-535670b31632" /></br>
 #### Kafka Consumer part:
 * Once Kafka_consumer.py is executed, the terminal displays logs showing the messages being consumed by the Kafka consumer from the topic 'financial_transaction_topic'.</br></br>
@@ -56,4 +56,5 @@
 10. Batch Processing.
 11. Message Queuing.
 12. Data pipeline.
+13. REST API
 
