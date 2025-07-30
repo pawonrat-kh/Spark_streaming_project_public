@@ -20,7 +20,7 @@ class FinanceTransactionConsumer:
             group_id = group_id,
             value_deserializer = lambda x: json.loads(x.decode('utf-8')),
             key_deserializer = lambda x: x.decode('utf-8') if x else None,
-            enable_auto_commit = False # Do at least once processsing
+            enable_auto_commit = False # Do at exactly once processsing
         )
         
         self.message_count = 0
