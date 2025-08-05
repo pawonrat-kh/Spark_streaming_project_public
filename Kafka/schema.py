@@ -67,29 +67,3 @@ class FinancialTransaction:
             "category": self.category,
             "reference_id": self.reference_id
         }
-    
-    def to_json(self):
-        return json.dumps(self.to_dict())
-    
-    @classmethod
-    def from_dict(cls, data):
-        return cls(
-            transaction_id=data["transaction_id"],
-            user_id=data["user_id"],
-            account_id=data["account_id"],
-            transaction_type=TransactionType(data["transaction_type"]),
-            original_amount=data["original_amount"],
-            amount=data["amount"],
-            currency=Currency(data["currency"]),
-            status=TransactionStatus(data["status"]),
-            timestamp=datetime.fromisoformat(data["timestamp"]),
-            description=data["description"],
-            recipient_account_id=data.get("recipient_account_id"),
-            recipient_user_id=data.get("recipient_user_id"),
-            fee=data.get("fee"),
-            currency_rate=data.get("currency_rate"),
-            location=data.get("location"),
-            merchant_id=data.get("merchant_id"),
-            category=data.get("category"),
-            reference_id=data.get("reference_id")
-        )
